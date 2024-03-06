@@ -1,263 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HomeWork1</title>
-    <script
-      src="https://unpkg.com/htmx.org@1.9.10"
-      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-      crossorigin="anonymous"
-    ></script>
+    <title>Cafe Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Product</li>
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-        <a href="https://twitter.com/"
-          ><img width="35" src="img/twitter.svg" alt="twitter logo"
-        /></a>
-        <a href="https://facebook.com/"
-          ><img width="35" src="img/facebook_logo.jpg" alt="facebook logo"
-        /></a>
-        <a href="https://linkedin.com/"
-          ><img width="35" src="img/linkedIn_logo.png" alt="linked in logo"
-        /></a>
-      </nav>
-    </header>
-    <div>
-      <h1>The best products start with Figma</h1>
-      <p>
-        Most calendars are designed for teams. Slate is designed for freelancers
-      </p>
-      <button>Try For Free</button>
-    </div>
-    <div>
-      <h2>Features</h2>
-      <p>
-        Most calendars are designed for teams. Slate is designed for freelancers
-      </p>
-      <div>
-        <img src="img/mdi_drawing.png" alt="drawing" />
-        <p>OpenType features Veriable fonts</p>
+    <div class="menu">
+      <main>
+        <h1>CAMPER CAFE</h1>
+        <p class="established">Est. 2020</p>
+        <hr>
+        <section>
+          <h2>Coffee</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer>
         <p>
-          Slate helps you see how many more days you need to work to reach your
-          financial goal
+          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
         </p>
-      </div>
-      <div>
-        <img src="img/mdi_draw.png" alt="draw" />
-        <p>Designed with real data</p>
-        <p>
-          Slate helps you see how many more days you need to work to reach your
-          financial goal
-        </p>
-      </div>
-      <div>
-        <img src="img/mdi_brush.png" alt="brush" />
-        <p>Fastest way to take action</p>
-        <p>
-          Slate helps you see how many more days you need to work to reach your
-          financial goal
-        </p>
-      </div>
+        <p class="address">123 Free Code Camp Drive</p>
+      </footer>
     </div>
-    <figure>
-      <img
-        src="img/screen_content.png"
-        alt="video screen"
-        width="1177"
-        height="658"
-      />
-    </figure>
-    <div>
-      <h2>Fastes way to organize</h2>
-      <p>
-        Most calendars are designedfor teams. Slate is designed for freelancers
-      </p>
-      <button>Try For Free</button>
-      <figure>
-        <img
-          src="img/frame.png"
-          alt="computer screen"
-          width="480"
-          height="300"
-        />
-      </figure>
-    </div>
-    <div>
-      <img src="img/left-container.png" alt="left-container" />
-      <p>At your fingertips</p>
-      <h2>Lightning fast prototyping</h2>
-      <p>Subscribe to our Newsletter</p>
-      <p>Available exclusivery on Figmaland</p>
-      <input type="email" value="Your Email" />
-      <button>Subscribe</button>
-    </div>
-    <div>
-      <h2>Partners</h2>
-      <p>
-        Most calendars are designedfor teams. Slate is designed for freelancers
-      </p>
-      <div>
-        <p>Client name</p>
-        <img src="img/logos_google.png" alt="logo google" />
-
-        <p>Client name</p>
-        <img src="img/amazon.png" alt="logo amazon" />
-
-        <p>Client name</p>
-        <img src="img/microsoft.png" alt="logo microsoft" />
-
-        <p>Client name</p>
-        <img src="img/uber.png" alt="logo uber" />
-
-        <p>Client name</p>
-        <img src="img/dropbox.png" alt="logo dropbox" />
-
-        <p>Client name</p>
-        <img src="img/logos_google.png" alt="logo google" />
-
-        <p>Client name</p>
-        <img src="img/uber.png" alt="logo uber" />
-
-        <p>Client name</p>
-        <img src="img/amazon.png" alt="logo amazon" />
-      </div>
-      <button>Try For Free</button>
-    </div>
-    <div>
-      <h2>Testimonials</h2>
-      <img src="img/brands.png" alt="brands" />
-      <p>
-        Most calendars are designedfor teams. Slate is designed for freelancers
-        who want a simple way to plan their schedule.
-      </p>
-      <figure>
-        <img src="img/avatar.png" alt="avatar" />
-        <figcaption>Organize across UI designer</figcaption>
-      </figure>
-      <button>More Testimonials</button>
-    </div>
-    <div>
-      <h2>Pricing</h2>
-      <p>
-        Most calendars are designedfor teams. Slate is designed for freelancers
-      </p>
-      <div>
-        <h3>Free</h3>
-        <p>Organize across all apps by hand</p>
-        <p>0 $ per month</p>
-        <p>Prising feature</p>
-        <p>Prising feature</p>
-        <p>Prising feature</p>
-        <p>Prising feature</p>
-        <p>Prising feature</p>
-        <button>Order now</button>
-      </div>
-      <div>
-        <h3>Standard</h3>
-        <p>Organize across all apps by hand</p>
-        <p>10 $ per month</p>
-        <p>Prising feature</p>
-        <p>Prising feature</p>
-        <p>Prising feature</p>
-        <p>Prising feature</p>
-        <p>Prising feature</p>
-        <button>Order now</button>
-      </div>
-      <div>
-        <h3>Business</h3>
-        <p>Organize across all apps by hand</p>
-        <p>99 $ per month</p>
-        <p>Prising feature</p>
-        <p>Prising feature</p>
-        <p>Prising feature</p>
-        <p>Prising feature</p>
-        <p>Prising feature</p>
-        <button>Order now</button>
-      </div>
-    </div>
-    <div>
-      <div>
-        <h2>Contact Us</h2>
-        <p>
-          Most calendars are designedfor teams. Slate is designed for
-          freelancers
-        </p>
-      </div>
-      <form action="/submit" method="get">
-        <h3>Contact us</h3>
-        <input type="text" value="Your Name" /> <br />
-        <input type="email" value="Your Email" /> <br />
-        <textarea name="message" id="message" cols="30" rows="10">
-Your Message</textarea
-        >
-        <br />
-        <button>Send</button>
-      </form>
-      <div>
-        <img src="img/bx_bx-map.png" alt="map illustration" />
-        <address>
-          6386 Spring St undefined Anchorage, Georgia 12473 United States
-        </address>
-        <img src="img/ic_baseline-phone-android.png" alt="phone illustration" />
-        <a href="tel:(843)555-0130">(843) 555-0130</a>
-        <img src="img/ant-design_mail-outlined.png" alt="mail illustration" />
-        <a href="mailto:willie.jennings@example.com"
-          >willie.jennings@example.com</a
-        >
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36722.11045343504!2d-122.43432446823805!3d37.78055042780285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581ac5dd2c351%3A0x71886797144873e2!2sMarina%20Green!5e0!3m2!1suk!2sua!4v1709590454523!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </div>
-    <footer>
-      <div>
-        <h4>Pages</h4>
-        <ul>
-          <li>Home</li>
-          <li>Product</li>
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-        <h4>Tomothy</h4>
-        <ul>
-          <li>Eleanor Edwards</li>
-          <li>Ted Robertson</li>
-          <li>Annette Russell</li>
-          <li>Jennie Mckinney</li>
-          <li>Gloria Richards</li>
-        </ul>
-        <h4>Jane Black</h4>
-        <ul>
-          <li>Philip Jones</li>
-          <li>Product</li>
-          <li>Colleen Russell</li>
-          <li>Marvin Hawkins</li>
-          <li>Bruce Simmmons</li>
-        </ul>
-      </div>
-      <div>
-        <img src="img/bx_bx-map.png" alt="map" />
-        <address>7480 Mockingbird Hill undefined</address>
-        <img src="img/ic_baseline-phone-android.png" alt="phone" />
-        <a href="tel:(239) 555-0108">(239) 555-0108</a>
-        <a href="https://twitter.com/"
-          ><img width="35" src="img/twitter.svg" alt="twitter logo"
-        /></a>
-        <a href="https://facebook.com/"
-          ><img width="35" src="img/facebook_logo.jpg" alt="facebook logo"
-        /></a>
-        <a href="https://linkedin.com/"
-          ><img width="35" src="img/linkedIn_logo.png" alt="linked in logo"
-        /></a>
-      </div>
-    </footer>
   </body>
 </html>
